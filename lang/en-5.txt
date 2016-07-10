@@ -1,0 +1,15 @@
+﻿<h3 id="service">Business Areas</h3>
+
+			<div id="avatar">
+				<span></span>
+			</div>
+
+			<ul id="me">
+				<li><span>Web Design and Standard Applications</span></li>
+				<li>Responsive Plateforms</li>
+				<li><span>Web Architecture</span></li>
+				<li>Semantic Web</li>
+				<li><span>XML Technology</span></li>
+				<li>Web Services</li>
+				<li><span>Browsers and Authoring Tools</span></li>
+			</ul>

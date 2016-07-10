@@ -1,0 +1,6 @@
+﻿<h3>à propos</h3>
+<p>
+	<span>
+	Je suis un passionné du web, du design et les challenges en général. J'ai un grand esprit d'équipe un fort sens des responsabilités et organisationnel et je suis un excellent communicateur (Délégué de classe à <a href="http://www.wf3.fr/">WEBFORCE3</a>).
+	</span>
+</p>

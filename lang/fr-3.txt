@@ -1,0 +1,7 @@
+﻿<h3>En résumé</h3>
+<p>
+<span>Designer et développeur front-end (HTML, CSS, Javascript, jQuery, Ajax, Wordpress)</span>, je propose les concepts graphiques, les intégrations, et le codage des interfaces web dynamiques client.<br />
+Excellente comprehension de l'architecture et administrateur back-end <span>(MYSQL, PHP)</span> je conçois et redige le code de gestion et de securité d'accès entre le client et les bases de données.<br />
+<span>20 années d'expérience</span> dans la conception <span>graphique</span> et l'illustration 2D et 3D dont 13 en gestion de projet m'ont donné d'excellentes compétences d'organisation et de maîtrise de logiciels. Je prends régulièrement des formations pour rester au niveau des dernières évolutions et techniques du secteur.
+J'aime travailler avec une équipe motivée et je suis capable de comprendre les différents besoins professionnels et culturels des clients ce qui me permet de toujours donner le résultat attendu.
+</P>

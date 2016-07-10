@@ -1,0 +1,7 @@
+﻿<h3>Resume</h3>
+<p>
+<span>Front-end Designer and developer  (HTML, CSS, Javascript, jQuery, Ajax, Wordpress)</span>, I design graphic concepts, integrations and code the dynamic client web interface.<br />
+Excellent architecture and administration back-end comprehension <span>(MYSQL, PHP)</span> I create and code the management and access security protocols between the client and the Database.<br />
+<span>20 years experience</span> in <span>graphic design</span> and 2D et 3D illustrations, 13 as project manager gave me excellent organization skills and software knowledge. I'm taking regularly trainings in the field to keep me up to date with the software evolutions and technologies.
+I love working with a motivated team and I am able to understand the various needs by working with different professional and cultural clients and this allows me to always give the expected result.
+</P>

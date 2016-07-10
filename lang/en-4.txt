@@ -1,0 +1,16 @@
+﻿<h3>Education</h3>
+	<h4><span>Traditional Studies</span></h4>
+	<ul>
+		<li><span>2016	WEB DEVELOPER </span> | WEBFORCE3 - Esch Belval- Luxembourg</li>
+		<li><span>1994	ARCHITECTURE </span> | SCI-Arc - Los Angeles, California - USA</li>
+		<li><span>1991	BUSINESS SCHOOL </span> | The American College of Los Angeles - CA - USA</li>
+		<li><span>1984	BE-AT TIMONIER </span> | "Ecotim" Marine Nationale - Toulon, France</li>
+	</ul>
+	<h4><span>Special Trainings</span></h4>
+	<ul>
+		<li><span>2014 </span>	3D Illustrator "ARCHITECTURE ACADEMY" | BLENDER GURU</li>
+		<li><span>2012 </span>	3D Illustrator "NATURE ACADEMY" | BLENDER GURU</li>
+		<li><span>2004 </span>	3D Graphist « MAYA » - MORSE | Paris - France</li>
+		<li><span>1995 </span>	Architecture Graphic Expert | « ARC+ » ACA Europe - Paris - France</li>
+		<li><span>1985 </span>	Photographer | Marine Nationale. Toulon - France</li>
+	</ul>

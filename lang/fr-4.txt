@@ -1,0 +1,16 @@
+﻿<h3>études</h3>
+	<h4><span>Formations traditionnelles</span></h4>
+	<ul>
+		<li><span>2016	DEVELOPPEUR WEB </span> | WEBFORCE3 . Esch Belval- Luxembourg</li>
+		<li><span>1994	ARCHITECTURE </span> | SCI-Arc. Los Angeles, Californie - USA</li>
+		<li><span>1991	ECOLE de COMMERCE </span> | The American College of Los Angeles - USA</li>
+		<li><span>1984	BE-AT TIMONIER </span> | Ecotim Marine Nationale. Toulon - France</li>
+	</ul>
+	<h4><span>Formations spéciales</span></h4>
+	<ul>
+		<li><span>2014 </span>	Illustrateur 3D "ARCHITECTURE ACADEMY" | BLENDER GURU</li>
+		<li><span>2012 </span>	Illustrateur 3D "NATURE ACADEMY" | BLENDER GURU</li>
+		<li><span>2004 </span>	Infographie 3D « MAYA » | MORSE Paris - France</li>
+		<li><span>1995 </span>	Infographie expert architecture « ARC+ » | ACA Europe. Paris - France</li>
+		<li><span>1985 </span>	Photographe | Marine Nationale. Toulon - France</li>
+	</ul>

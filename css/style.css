@@ -1,0 +1,443 @@
+@import url('http://allfont.net/allfont.css?fonts=franklin-gothic-heavy');
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+
+ *{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body{
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+h1,h2,h3{
+	text-transform: uppercase;
+	font-family: franklin gothic heavy;
+	text-align: left;
+	font-weight: 800;
+	line-height: 22px;
+}
+h1{
+	line-height: 40px;
+	font-size: 40px;
+	color:  #fff;
+  	margin-top: 5px;
+	margin-bottom: 2px;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+h2{
+	line-height: 22px;
+	font-size: 22px;
+	color: #fff;
+	margin-bottom: 8px;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+
+/* MISE EN PAGE DU HAUT */
+
+.photo {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-size: 100%;
+	background-color: #cccccc;
+	overflow: hidden;
+}
+.photo img{
+	margin-top: -50px;
+	width: 100%;
+}
+
+.titre{
+	position: fixed;
+	z-index: 5;
+	left: 10px;
+	top: 0;
+	padding-top: 15px;
+	text-align: left;
+	width: 350px;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+.fondTitre{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 0;
+	background-color: #034f83;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+
+.stickyTitre{
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin-left: 5px;
+	padding-top: 0;
+	z-index: 10;
+	color: #fff;
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	transition: 0.3s;
+}
+.stickyTitre h1{
+	margin-left: 5px;
+	font-size: 25px;
+	line-height: 25px;
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	transition: 0.3s;
+}
+.stickyTitre h2{
+	margin-left: 5px;
+	font-size: 15px;
+	line-height: 15px;
+	margin-bottom: 5px;
+	color: #fff;
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	transition: 0.3s;
+}
+.fondTitreGris{
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	height: 65px;
+	background-color: #202932;
+	opacity: 0.95;
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	transition: 0.3s;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	margin-left: 257px;
+	z-index: 10;
+	text-align: right;
+	width: 70px;
+	padding-top: 72px;
+	-webkit-transition: opacity 0.7s linear;
+	-moz-transition: opacity 0.7s linear;
+	-o-transition: opacity 0.7s linear;
+	transition: 0.7s;
+}
+
+#navExper{
+	display: none;
+}
+#navApt{
+	display: none;
+}
+#navPrint{
+	display: none;
+}
+
+nav ul li a{
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 70px;
+  	height: 20px;
+  	background-color:  #c0c0c2;
+  	color: #202932;
+  	display: inline-block;
+  	border-radius: 5px;
+  	border: 1px solid #FFFFFF;
+  	text-transform: uppercase;
+  	text-align: center;
+  	font-size: 12px;
+  	padding-top: 0px;
+  	vertical-align: top;
+	box-shadow: 3px 3px 2px rgba(88,88,88,0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+  	transition: 0.5s;
+}
+nav a:hover{
+	background-color: #202932;
+	color: white;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+.stickyNav {
+	padding-top: 10px;
+	z-index: 100;
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	transition: 0.3s;
+}
+
+.flag{
+	position: absolute;
+	z-index: 10;
+	margin-top: -50px;
+	right: 25px;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+.stickyFlag{
+	position: absolute;
+	z-index: 100;
+	padding-top: 40px;
+	right: 115px;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+
+/* MISE EN PAGE DES SECTIONS */
+main{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	background-color: #343d46;
+}
+
+#work{
+	display: none;
+}
+
+/*Galerie FancyBox*/
+.galerie {
+	display: none;
+}
+
+/*Colones comptétences*/
+.competences {
+	display: none;
+}
+.techno {
+	display: none;
+}
+
+/* MISE EN PAGE DU "DETAILS CONTACT" */
+
+.fa{
+	background-color: #202932;
+	color: white;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 33px;
+	margin-top: 4px;
+	margin-right: 5px;
+	border-radius: 5px;
+	border:1px solid white;
+	float: left;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+.fa:hover{
+	background-color: #c0c0c2;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+
+.contactDetails {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto -20px;
+	padding-top: 10px;
+}
+.contactDetails ul{
+	position: relative;
+	width: 100%;
+}
+.contactDetails li{
+	display: inline-block;
+	font-size: 18px;
+	margin-right:15px;
+	margin-left: 15px;
+}
+.contactDetails h3{
+	display: none;
+}
+.contactDetails p{
+	display: none;
+}
+.contactDetails .large{
+	display: none;
+}
+
+.vignettes {
+	margin-top: 25px;
+}
+.vignettes div{
+	height: 100px;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+.vignettes li{
+	margin-top: -125px;
+	position: relative;
+}
+.vignettes h2 {
+	z-index: 1;
+	position: relative;
+	top: 0;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+}
+.vignettes img{
+	width: 100%;
+	margin-top: -125px;
+}
+
+/* MISE EN PAGE DU FOOTER */
+footer {
+	text-align: center;
+	background-color: #202932;
+}
+footer h3{
+	text-align: center;
+	line-height: 30px;
+}
+footer img{
+	float: left;
+	margin-right: 50px;
+}
+footer li{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+#avatar{
+		float: left;
+		height: 200px;
+		width: 200px;
+		margin-left: 50px;
+		background: url("../img/avatar.png");
+}
+#avatar span{
+		float: left;
+		height: 200px;
+		width: 200px;
+		margin-left: 0;
+		z-index: 150;
+		background: url("../img/avatar2.png");
+		opacity: 0;
+		-webkit-transition: opacity 0.5s linear;
+	    -moz-transition: opacity 0.5s linear;
+	   	-o-transition: opacity 0.5s linear;
+		transition: 0.5s linear;
+}
+#avatar span:hover{
+		background: url("../img/avatar2.png");
+		opacity: 1;
+		-webkit-transition: opacity 0.5s linear;
+	   	-moz-transition: opacity 0.5s linear;
+	    -o-transition: opacity 0.5s linear;
+		transition: 0.5s linear;
+}
+#me{
+	display: none;
+}
+
+.wf3 {
+	padding-bottom: 30px;
+	text-align: center;
+	color: white;
+}
+.wf3 img {
+	width: 150px;
+	margin-bottom: -18px;
+}
+
+.form{
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+.form h3{
+	display: none;
+}
+.form input{
+	margin-right: 2px ;
+	margin-bottom: 2px;
+	width: 163px;
+}
+.form textarea{
+	height: 50px ;
+	width: 330px ;
+}
+.form span {
+	float: left;
+	padding-left: 20px;
+	color: #878787;
+}
+
+#submit{
+	width: 65px;
+  	height: 30px;
+  	background-color:  #c0c0c2;
+  	color: #202932;
+  	border-radius: 5px;
+  	border: 1px solid #FFFFFF;
+  	font-size: 13px;
+  	float: right;
+  	margin-right: 30px;
+  	top : -10px;
+  	-webkit-transition: opacity 0.5s linear;
+	   	-moz-transition: opacity 0.5s linear;
+	    -o-transition: opacity 0.5s linear;
+  	transition: 0.5s;
+}
+#submit:hover {
+	background-color: #202932;
+	color: white;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: 0.5s;
+}
+.endFooter p{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*************************** RWD ECRAN PC *****************************/
+
+@media screen and (min-width: 481px) {
+
+/*************************** RWD PRINTER *****************************/
+
+@media print {
+	/* Impression des images sur Chrome et Safari */
+    * {-webkit-print-color-adjust:exact;}

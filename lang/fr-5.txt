@@ -1,0 +1,15 @@
+﻿<h3 id="service">A votre service</h3>
+
+			<div id="avatar">
+				<span></span>
+			</div>
+
+			<ul id="me">
+				<li><span>Web Design et Applications Standards</span></li>
+				<li>Plateformes responsives</li>
+				<li><span>Architecture Web</span></li>
+				<li>Web semantique</li>
+				<li><span>Technologie XML</span></li>
+				<li>Services web</li>
+				<li><span>Navigateurs et outils de création</span></li>
+			</ul>

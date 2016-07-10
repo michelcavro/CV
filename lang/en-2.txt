@@ -1,0 +1,10 @@
+﻿<h3 id=experience>Experience</h3>
+<ul>
+	<li><span>2016: 	WEB DEVELOPPER</span> Currently trainee, I'm learning web programming at <a href="http://www.wf3.fr/">WEBFORCE3-FIT4CODING</a> in  a 480 hours course - HTML5 / CSS3 / JAVASCRIPT / JQUERY / AJAX / PHP / MYSQL / WORDPRESS (4 avril / 31 juillet 2016) - Luxembourg</li>
+	<li><span>2011-2015 :	DESIGN STUDIO MANAGER at "CRISTAL"</span> : architectural Design, project presentation visuals, Desktop Publishing, concept and realization of online 3D interactive projects - Luxembourg</li>
+	<li><span>2007- 2011 :	DESIGNER - ILLUSTRATOR</span> : Industrial and Commercial Real Estate Project Designer, Graphic Communication - VALERES - Luxembourg</li>
+	<li><span>1997-2007 :	GRAPHIST</span> Instructor, design and graphic project manager, illustrator, 3D animator - France</li>
+	<li><span>1996 :	CO-FOUNDER & CO-MANAGER</span> of a multinational Real Estate project in Bratislava (budget: 40 M USD) - Slovakia</li>
+	<li><span>1994-1995 :	GRAPHIST - SALESMAN - IT - INSTRUCTOR</span> - France</li>
+	<li><span>1984-1989 :	TIMONIER</span> (Helmsman), French Navy. Visual Transmissions, tactical navigation, photograph. France</li>
+</ul>

@@ -1,0 +1,1156 @@
+@import url('http://allfont.net/allfont.css?fonts=franklin-gothic-heavy');
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+
+ *{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px){
+	span{
+		font-weight: bolder;
+		color: #034f83;
+	}
+
+	body{
+		background: #ececed url("../img/fond4.png");
+		background-size: 100%;
+		font-family: Lato;
+		color:  #2c2d2d;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+
+	h1,h2,h3{
+		text-transform: uppercase;
+		font-family: franklin gothic heavy;
+		text-align: left;
+		font-weight: 800;
+		line-height: 22px;
+	}
+	h1{
+		line-height: 40px;
+		font-size: 40px;
+		color:  #2c2d2e;
+	  	margin-top: 5px;
+		margin-bottom: 2px;
+		transition: 0.7s;
+	}
+	h2{
+		line-height: 22px;
+		font-size: 22px;
+		color: #034f83;
+		margin-bottom: 8px;
+		transition: 0.7s;
+	}
+	h3{
+		font-size: 25px;
+		color:  #c0c0c2;
+		text-align: left;
+	  	margin-top: 8px;
+		margin-bottom: 8px;
+	}
+	h4{
+		text-transform: uppercase;
+		color:  #3f3f41;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 30px;
+		text-align: left;
+	}
+	a{
+		text-decoration: none;
+	}
+	p {
+		text-align: justify;
+	}
+
+	/* MISE EN PAGE DU HAUT */
+
+	.topBorder{
+		position: absolute;
+		width: 100%;
+		height: 20px;
+		background-color: #034f83;
+	}
+
+	main{
+		position: relative;
+		margin: auto;
+		width: 350px;
+	}
+
+	/* MISE EN PAGE DES SECTIONS */
+	/* TITRE (de gauche) */
+	#michel{
+		float: left;
+		width: 320px;
+		transition: 0.7s;
+	}
+
+	.titre{
+		position: absolute;
+		left: 0;
+		padding-top: 15px;
+		text-align: left;
+		width: 350px;
+		transition: 0.7s;
+	}
+	.fondTitre{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 0;
+		background-color: #034f83;
+		opacity: 0;
+		transition: 0.7s;
+	}
+
+	.stickyTitre{
+		position: fixed;
+		left: 0;
+		right: 0;
+		margin-left: 5px;
+		padding-top: 0;
+		z-index: 10;
+		color: #fff;
+		transition: 0.3s;
+	}
+	.stickyTitre h1{
+		margin-left: 5px;
+		font-size: 25px;
+		line-height: 25px;
+		transition: 0.3s;
+	}
+	.stickyTitre h2{
+		margin-left: 5px;
+		font-size: 15px;
+		line-height: 15px;
+		margin-bottom: 5px;
+		color: #fff;
+		transition: 0.3s;
+	}
+	.fondTitreBleu{
+		position: fixed;
+		width: 100%;
+		z-index: 5;
+		height: 65px;
+		background-color: #034f83;
+		opacity: 0.95;
+		transition: 0.3s;
+	}
+
+	nav{
+		position: absolute;
+		margin-left: 257px;
+		z-index: 100;
+		text-align: right;
+		width: 70px;
+		padding-top: 72px;
+		transition: 0.7s;
+	}
+
+	#navExper{
+		display: none;
+	}
+	#navApt{
+		display: none;
+	}
+	#navPrint{
+		display: none;
+	}
+	
+	nav ul li a{
+		margin-right: 10px;
+		margin-top: 5px;
+		width: 70px;
+	  	height: 20px;
+	  	background-color:  #c0c0c2;
+	  	color: #FFFFFF;
+	  	display: inline-block;
+	  	border-radius: 5px;
+	  	border: 1px solid #FFFFFF;
+	  	text-transform: uppercase;
+	  	text-align: center;
+	  	font-size: 12px;
+	  	padding-top: 0px;
+	  	vertical-align: top;
+		box-shadow: 3px 3px 2px rgba(88,88,88,0.2);
+	  	transition: 0.5s;
+	}
+	nav a:hover{
+		background-color: #034f83;
+		transition: 0.5s;
+	}
+	.stickyNav {
+		padding-top: 10px;
+		z-index: 100;
+		transition: 0.3s;
+	}
+
+	.flag{
+		position: absolute;
+		z-index: 100;
+		padding-top: 28px;
+		right: 25px;
+		transition: 0.5s;
+	}
+	.stickyFlag{
+		position: absolute;
+		z-index: 100;
+		padding-top: 43px;
+		right: 115px;
+		transition: 0.5s;
+	}
+
+	/* MISE EN PAGE DES COLONES */
+
+	.coloneG{
+		margin: auto;
+		padding-top: 90px;
+		width: 310px;
+	}
+
+	#work{
+		display: none;
+	}
+
+	.coloneD{
+		float: left;
+		margin-left: 40px;
+		padding-top: 10px;
+		width: 310px;
+	}
+
+	/* liste experience*/
+	.experience ul{
+		list-style-image: url('../img/pucesFleche.png');
+	}
+
+	/*Galerie FancyBox*/
+	.galerie {
+		display: none;
+	}
+
+	/*Colones comptétences*/
+	.competences {
+		display: none;
+	}
+	.techno {
+		display: none;
+	}
+
+	/* MISE EN PAGE DU "DETAILS CONTACT" */
+
+	.fa{
+		background-color: #034f83;
+		color: white;
+		height: 35px;
+		width: 35px;
+		text-align: center;
+		line-height: 33px;
+		margin-top: 4px;
+		margin-right: 5px;
+		border-radius: 5px;
+		border:1px solid white;
+		float: left;
+		transition: 0.5s;
+	}
+	.fa:hover{
+		background-color: #c0c0c2;
+		transition: 0.5s;
+	}
+	.contactDetails li{
+		font-size: 18px;
+		width: 100%;
+	  	margin-bottom: 20px;
+	  	overflow: hidden;
+	  	vertical-align: top;
+	}
+	.contactDetails #skype{
+		display: none;
+	}
+	.contactDetails #adress{
+		display: none;
+	}
+	.contactDetails #linkedin{
+		display: none;
+	}
+	.contactDetails a{
+		line-height: 20px;
+	}
+
+	/* MISE EN PAGE DU FOOTER */
+
+	footer h3{
+		text-align: center;
+		line-height: 30px;
+	}
+	footer img{
+		float: left;
+		margin-right: 50px;
+	}
+	footer li{
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 30px;
+		text-transform: uppercase;
+	}
+
+	.details{
+		height: 400px;
+	}
+
+	#avatar{
+			float: left;
+			height: 200px;
+			width: 200px;
+			margin-left: 50px;
+			background: url("../img/avatar.png");
+	}
+	#avatar span{
+			float: left;
+			height: 200px;
+			width: 200px;
+			margin-left: 0;
+			z-index: 150;
+			background: url("../img/avatar2.png");
+			opacity: 0;
+			-webkit-transition: opacity 0.5s linear;
+		    -moz-transition: opacity 0.5s linear;
+		   	-o-transition: opacity 0.5s linear;
+			transition: 0.5s linear;
+	}
+	#avatar span:hover{
+			background: url("../img/avatar2.png");
+			opacity: 1;
+			-webkit-transition: opacity 0.5s linear;
+		   	-moz-transition: opacity 0.5s linear;
+		    -o-transition: opacity 0.5s linear;
+			transition: 0.5s linear;
+	}
+	#me{
+		display: none;
+	}
+
+	.form{
+		clear: both;
+		margin: auto;
+	}
+	.form input{
+		margin-right: 2px ;
+		margin-bottom: 2px;
+		width: 163px;
+	}
+	.form textarea{
+		height: 50px ;
+		width: 330px ;
+	}
+	#submit{
+		width: 65px;
+	  	height: 30px;
+	  	background-color:  #c0c0c2;
+	  	color: #FFFFFF;
+	  	border-radius: 5px;
+	  	border: 1px solid #FFFFFF;
+	  	font-size: 13px;
+	  	float: right;
+	  	margin-right: 30px;
+	  	top : -10px;
+	  	transition: 0.5s;
+	}
+	#submit:hover {
+		background-color: #034f83;
+		transition: 0.5s;
+	}
+	.endFooter{
+		margin-top: 0px;
+	}
+	.endFooter p{
+		margin-top: 30px;
+		text-align: center;
+	}
+}
+/*************************** RWD ECRAN PC *****************************/
+
+@media screen and (min-width: 481px) {
+	span{
+		font-weight: bolder;
+		color: #034f83;
+	}
+
+	body{
+		background: #ececed url("../img/fond4.png");
+		background-size: 100%;
+		font-family: Lato;
+		color:  #2c2d2d;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+
+	h1,h2,h3{
+		text-transform: uppercase;
+		font-family: franklin gothic heavy;
+		text-align: left;
+		font-weight: 800;
+		line-height: 56px;
+	}
+	h1{
+		line-height: 60px;
+		font-size: 60px;
+		color:  #2c2d2e;
+	  	margin-top: 5px;
+		margin-bottom: 2px;
+		transition: 0.7s;
+	}
+	h2{
+		line-height: 33px;
+		font-size: 33px;
+		color: #034f83;
+		margin-bottom: 10px;
+		transition: 0.7s;
+	}
+	h3{
+		font-size: 40px;
+		color:  #c0c0c2;
+		text-align: left;
+	  	margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	h4{
+		text-transform: uppercase;
+		color:  #3f3f41;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 56px;
+		text-align: left;
+	}
+	a{
+		text-decoration: none;
+	}
+	p {
+		text-align: justify;
+	}
+
+	/* MISE EN PAGE DU HAUT */
+
+	.topBorder{
+		position: absolute;
+		width: 100%;
+		height: 20px;
+		background-color: #034f83;
+	}
+
+	main{
+		position: relative;
+		margin: auto;
+		width: 1000px;
+		height: 1320px;
+	}
+	main.thankyou{
+		position: relative;
+		margin: auto;
+		width: 1000px;
+		height: 300px;
+	}
+
+	/* MISE EN PAGE DES SECTIONS */
+	/* TITRE (de gauche) */
+
+
+	#michel{
+		float: left;
+		width: 480px;
+		transition: 0.7s;
+	}
+
+	.titre{
+		position: absolute;
+		left: 0;
+		padding-top: 15px;
+		text-align: left;
+		width: 1000px;
+		transition: 0.7s;
+	}
+	.fondTitre{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 0;
+		background-color: #034f83;
+		opacity: 0;
+		transition: 0.7s;
+	}
+
+	.stickyTitre{
+		position: fixed;
+		left: 0;
+		right: 0;
+		margin: auto;
+		padding-top: 0;
+		z-index: 10;
+		color: #fff;
+		transition: 0.7s;
+	}
+	.stickyTitre h1{
+		font-size: 30px;
+		line-height: 30px;
+		transition: 0.7s;
+	}
+	.stickyTitre h2{
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 5px;
+		color: #fff;
+		transition: 0.7s;
+	}
+	.fondTitreBleu{
+		position: fixed;
+		width: 100%;
+		z-index: 5;
+		height: 65px;
+		background-color: #034f83;
+		opacity: 0.95;
+		transition: 0.7s;
+	}
+
+	nav{
+		position: absolute;
+		margin-left: 500px;
+		z-index: 100;
+		text-align: right;
+		width: 480px;
+		padding-top: 32px;
+		transition: 0.7s;
+	}
+	nav ul li{
+		display: inline-block;
+	}
+	nav ul li a{
+		margin-right: 10px;
+		width: 80px;
+	  	height: 25px;
+	  	background-color:  #c0c0c2;
+	  	color: #FFFFFF;
+	  	display: inline-block;
+	  	border-radius: 5px;
+	  	border: 1px solid #FFFFFF;
+	  	text-transform: uppercase;
+	  	text-align: center;
+	  	font-size: 12px;
+	  	padding-top: 0px;
+	  	vertical-align: top;
+		
+	  	transition: 0.5s;
+	}
+	nav a:hover{
+		background-color: #034f83;
+		box-shadow: 1px 5px 5px rgba(88,88,88,0.3);
+		margin-top: -3px;
+		transition: 0.5s;
+	}
+	.stickyNav {
+		padding-top: 10px;
+		z-index: 100;
+		transition: 0.7s;
+	}
+
+	.flag{
+		position: absolute;
+		z-index: 100;
+		padding-top: 32px;
+		right: 0;
+	}
+
+	/* MISE EN PAGE DES COLONES */
+
+	.coloneG{
+		float: left;
+		padding-top: 120px;
+		width: 480px;
+	}
+
+	.coloneD{
+		float: left;
+		margin-left: 40px;
+		padding-top: 95px;
+		width: 480px;
+	}
+
+	/*Boutons liste experience*/
+	.experience ul{
+		list-style-image: url('../img/pucesFleche.png');
+	}
+
+	/*Galerie FancyBox*/
+	.galerie {
+		padding: 10px;
+		width: 450px;
+		height: 270px;
+	}
+
+	/*Colones comptétences*/
+	.competences ul{
+		margin-left: 20px;
+		width: 450px;
+		height: 250px;
+		border-left: 1px solid  #c0c0c2;
+		border-bottom: 1px solid  #c0c0c2;
+	}
+	.competences li{
+		width: 90%;
+		height: 25px;
+		line-height: 25px;
+		background-color: #c0c0c2;
+		margin-bottom: 10px;
+		padding-left: 20px;
+		text-transform: uppercase;
+		transition: 0.5s;
+	}
+	.competences li:nth-child(even){ /* séléctionne des fils pairs */
+		color: #fff;
+		background-color: #034f83;
+		transition: 0.5s;
+	}
+
+	/*Animation des éléments compétences*/
+	#expertise{
+		position: absolute;
+		margin-left: 20px;
+		text-transform: uppercase;
+		display: none;
+	}
+	#maitrise{
+		position: absolute;
+		margin-left: 20px;
+		text-transform: uppercase;
+		display: none;
+	}
+	.competences li:hover{
+		background-color: #f1bf26;
+		
+		transition: 0.5s;
+	}
+	.competences #html:hover{
+		width: 100%;
+		transition: 0.5s;
+	}
+	.competences #java:hover{
+		width: 80%;
+		transition: 0.5s;
+	}
+	.competences #php:hover{
+		width: 80%;
+		transition: 0.5s;
+	}
+	.competences #wp:hover{
+		width: 100%;
+		transition: 0.5s;
+	}
+	.competences #adobe:hover{
+		width: 100%;
+		transition: 0.5s;
+	}
+	.competences #soft:hover{
+		width: 100%;
+		transition: 0.5s;
+	}
+	.competences #office:hover{
+		width: 80%;
+		transition: 0.5s;
+	}
+	.techno {
+		margin-top: 40px;
+		height: 130px;
+	}
+	.techno img{
+		height: 50px;
+		width:50px;
+	}
+
+	/* MISE EN PAGE DU "DETAILS CONTACT" */
+
+	.fa{
+		background-color: #034f83;
+		color: white;
+		height: 35px;
+		width: 35px;
+		text-align: center;
+		line-height: 33px;
+		margin-top: 4px;
+		margin-right: 5px;
+		border-radius: 5px;
+		border:1px solid white;
+		float: left;
+		transition: 0.5s;
+	}
+	.fa:hover{
+		background-color: #c0c0c2;
+		box-shadow: 1px 2px 3px rgba(88,88,88,0.3);
+		margin-top: 2px;
+		transition: 0.5s;
+	}
+	.contactDetails li{
+		display: inline-block;
+		width: 49%;
+	  	margin-bottom: 20px;
+	  	overflow: hidden;
+	  	vertical-align: top;
+	}
+
+	.contactDetails a{
+		display: block;
+		line-height: 15px;
+	}
+
+	/* MISE EN PAGE DU FOOTER */
+	footer img{
+		float: left;
+		margin-right: 50px;
+	}
+	footer li{
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 30px;
+		text-transform: uppercase;
+	}
+
+	.details{
+		margin-top: 165px;
+		height: 220px;
+		width: 100%;
+	}
+	#service {
+		text-align: center;
+	}
+	#avatar{
+			float: left;
+			height: 200px;
+			width: 200px;
+			margin-left: 50px;
+			background: url("../img/avatar.png");
+	}
+	#avatar span{
+			float: left;
+			height: 200px;
+			width: 200px;
+			margin-left: 0;
+			z-index: 150;
+			background: url("../img/avatar2.png");
+			opacity: 0;
+			-webkit-transition: opacity 0.5s linear;
+		    -moz-transition: opacity 0.5s linear;
+		   	-o-transition: opacity 0.5s linear;
+			transition: 0.5s linear;
+	}
+	#avatar span:hover{
+			background: url("../img/avatar2.png");
+			opacity: 1;
+			-webkit-transition: opacity 0.5s linear;
+		   	-moz-transition: opacity 0.5s linear;
+		    -o-transition: opacity 0.5s linear;
+			transition: 0.5s linear;
+	}
+	#me{
+		float: left;
+	}
+
+	.form{
+		padding-right: 50px;
+		float: right;
+	}
+	.form input{
+		margin-right: 1px ;
+		margin-bottom: 1px;
+		width: 273px;
+	}
+	.form textarea{
+		height: 90px ;
+		width: 550px ;
+	}
+	#submit{
+		width: 65px;
+	  	height: 30px;
+	  	background-color:  #c0c0c2;
+	  	color: #FFFFFF;
+	  	border-radius: 5px;
+	  	border: 1px solid #FFFFFF;
+	  	font-size: 13px;
+	  	position: relative;
+	  	top : -10px;
+	  	transition: 0.5s;
+	}
+	#submit:hover {
+		background-color: #034f83;
+		transition: 0.5s;
+	}
+	.endFooter{
+		margin-top: 100px;
+		border-top: 1px solid #c0c0c2;
+	}
+	.endFooter p{
+		margin-top: 30px;
+		text-align: center;
+	}
+}
+
+/*************************** RWD PRINTER *****************************/
+
+@media print {
+	/* Impression des images sur Chrome et Safari */
+    * {-webkit-print-color-adjust:exact;}
+
+    /* Diminution des marges pour effacer les infos internet */
+    @page{size:auto; margin: 5mm;}
+
+	span{
+		font-weight: bolder;
+		color: #034f83;
+	}
+
+	body{
+		background: white;
+		background-size: 100%;
+		font-family: Lato;
+		color:  #2c2d2d;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+
+	h1,h2,h3{
+		text-transform: uppercase;
+		font-family: franklin gothic heavy;
+		text-align: left;
+		font-weight: 800;
+		line-height: 56px;
+	}	
+
+	h1{
+		line-height: 60px;
+		font-size: 60px;
+		color:  #2c2d2e;
+	  	margin-top: 5px;
+		margin-bottom: 2px;
+	}
+	h2{
+		line-height: 32px;
+		font-size: 32px;
+		color: #034f83;
+		margin-bottom: 10px;
+	}
+	h3{
+		font-size: 40px;
+		color:  #c0c0c2;
+		text-align: left;
+	  	margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	h4{
+		text-transform: uppercase;
+		color:  #3f3f41;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 56px;
+		text-align: left;
+	}
+
+	a{
+		text-decoration: none;
+	}
+	p {
+		text-align: justify;
+	}
+
+	/* MISE EN PAGE DU HAUT */
+	/* Le main est légèrement élargi pour integrer une marge lors de l'impression (et faire disparaitre les infos internet) */
+	.topBorder{
+		position: absolute;
+		width: 100%;
+		height: 20px;
+		background-color: #034f83;
+	}
+
+	main{
+		position: relative;
+		margin: auto;
+		padding: 7px;
+		width: 1020px;
+		height: 1300px;
+	}
+	main.thankyou{
+		position: relative;
+		margin: auto;
+		width: 1000px;
+		height: 300px;
+	}
+
+	/* MISE EN PAGE DES SECTIONS */
+	/* TITRE (de gauche) */
+	#michel{
+		float: left;
+		width: 480px;
+	}
+
+	.titre{
+		position: absolute;
+		left: 0;
+		padding-top: 15px;
+		text-align: left;
+		width: 1000px;
+	}
+	.fondTitre{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 0;
+		background-color: #034f83;
+		opacity: 0;
+	}
+
+	.stickyTitre{
+		position: absolute;
+		left: 0;
+		padding-top: 15px;
+		text-align: left;
+		width: 1000px;
+	}
+	.stickyTitre h1{
+		line-height: 60px;
+		font-size: 60px;
+		color:  #2c2d2e;
+	  	margin-top: 5px;
+		margin-bottom: 2px;
+	}
+	.stickyTitre h2{
+		line-height: 32px;
+		font-size: 32px;
+		color: #034f83;
+		margin-bottom: 10px;
+	}
+	.fondTitreBleu{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 0;
+		background-color: #034f83;
+		opacity: 0;
+	}
+
+	nav{
+		display: none;
+	}
+	
+	.flag{
+		display: none;
+	}
+	nav{
+		position: absolute;
+		margin-left: 500px;
+		z-index: 100;
+		text-align: right;
+		width: 480px;
+		padding-top: 32px;
+	}
+	nav ul li{
+		display: inline-block;
+	}
+	nav ul li a{
+		margin-right: 10px;
+		width: 80px;
+	  	height: 25px;
+	  	background-color:  #c0c0c2;
+	  	color: #FFFFFF;
+	  	display: inline-block;
+	  	border-radius: 5px;
+	  	border: 1px solid #FFFFFF;
+	  	text-transform: uppercase;
+	  	text-align: center;
+	  	font-size: 12px;
+	  	padding-top: 0px;
+	  	vertical-align: top;
+		box-shadow: 3px 3px 2px rgba(88,88,88,0.2);
+	}
+	nav a:hover{
+		background-color: #034f83;
+	}
+	.stickyNav {
+		padding-top: 10px;
+		z-index: 100;
+	}
+
+	/* MISE EN PAGE DES COLONES */
+	/* La colone droite remonte a la place des bourons NAV pour l'impression */
+	.coloneG{
+		float: left;
+		padding-top: 80px;
+		width: 480px;
+	}
+	.coloneD{
+		float: left;
+		margin-left: 40px;
+		padding-top: 10px;
+		width: 480px;
+	}
+
+	/*Boutons liste experience*/
+	.experience ul{
+		list-style-image: url('../img/pucesFleche.png');
+	}
+
+	/*Galerie FancyBox*/
+	.galerie {
+		display: none;
+	}
+
+	/*Colones comptétences*/
+	.competences ul{
+		margin-left: 20px;
+		width: 450px;
+		height: 250px;
+		border-left: 1px solid  #c0c0c2;
+		border-bottom: 1px solid  #c0c0c2;
+	}
+	/* Colones comptétences ont un liseret gris pour impression sur Firefox, I.Explorer, ... */
+	.competences li{
+		height: 25px;
+		line-height: 25px;
+		background-color: #c0c0c2;
+		border: dotted grey 1px;
+		margin-bottom: 10px;
+		padding-left: 20px;
+		text-transform: uppercase;
+	}
+	.competences li:nth-child(even){ /* séléctionne des fils pairs */
+		color: #fff;
+		background-color: #034f83;
+	}
+
+	/*Animation des éléments compétences*/
+	#expertise{
+		position: absolute;
+		margin-left: 20px;
+		text-transform: uppercase;
+		display: none;
+	}
+	#maitrise{
+		position: absolute;
+		margin-left: 20px;
+		text-transform: uppercase;
+		display: none;
+	}
+
+	/* Les dimensions éléments compétences sont fixes pour impression */
+	.competences #html{
+		width: 100%;
+	}
+	.competences #java{
+		width: 80%;
+	}
+	.competences #php{
+		width: 80%;
+	}
+	.competences #wp{
+		width: 100%;
+	}
+	.competences #adobe{
+		width: 100%;
+	}
+	.competences #soft{
+		width: 100%;
+	}
+	.competences #office{
+		width: 80%;
+	}
+
+	.techno img{
+		height: 50px;
+		width:50px;
+	}
+
+	/* MISE EN PAGE DU "DETAILS CONTACT" */
+
+	.fa{
+		background-color: #034f83;
+		color: white;
+		height: 35px;
+		width: 35px;
+		text-align: center;
+		line-height: 33px;
+		margin-top: 4px;
+		margin-right: 5px;
+		border-radius: 5px;
+		border:1px solid white;
+		float: left;
+	}
+	#CV{
+		display: none;
+	}
+	.contactDetails #linkedin{
+		display: none;
+	}
+	.contactDetails li{
+		display: inline-block;
+		width: 49%;
+	  	margin-bottom: 20px;
+	  	overflow: hidden;
+	  	vertical-align: top;
+	}
+	.contactDetails a{
+		display: block;
+		line-height: 15px;
+	}
+
+
+	/* MISE EN PAGE DU FOOTER */
+
+	footer h3{
+		text-align: center;
+	}
+	footer img{
+		float: left;
+		margin-right: 50px;
+	}
+	footer li{
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 30px;
+		text-transform: uppercase;
+	}
+
+	.details{
+		height: 220px;
+	}
+
+	#avatar{
+			float: left;
+			height: 200px;
+			width: 200px;
+			margin-left: 50px;
+			background: url("../img/avatar.png");
+	}
+	#avatar span{
+			display: none;
+	}
+
+	/* "DETAILS CONTACT" a droite pour impression */
+	#me{
+		float: right;
+	}
+	.details{
+		float: right;
+		text-align: right;
+		margin-top: -320px;
+	}
+	/* FOOTER non imprimé */
+	.form {
+		display: none;
+	}
+
+	.endFooter{
+		display: none;
+	}
+}

@@ -1,0 +1,10 @@
+﻿<h3 id=experience>Expérience</h3>
+<ul>
+	<li><span>2016: 	DEVELOPPEUR WEB</span> à <a href="http://www.wf3.fr/">WEBFORCE3-FIT4CODING</a> dans une session de 480 heures de cours (4 avril / 31 juillet 2016) - Luxembourg :<br/>HTML5 | CSS3 - Développement et intégration de templates<br/>JAVASCRIPT | JQUERY | AJAX - Animation et interactivité des pages HTML<br/>PHP | MYSQL - Programmation et gestion des bases de données<br/>WORDPRESS - Manipulation et gestion de CMS</li>
+	<li><span>2011 - 2015:	GERANT D'AGENCE GRAPHIQUE "CRISTAL"</span> : Design architectural, maquette de présentation de projet, PAO, réalisation projets 3D interactif en ligne - Luxembourg</li>
+	<li><span>2007 - 2011:	DESIGNER - ILLUSTRATEUR</span> : Conception de projets immobiliers industriels et commerciaux, communication graphique - VALERES - Luxembourg</li>
+	<li><span>1997 - 2007:	GRAPHISTE</span> Design et gestion de projets graphiques, illustrateur, animateur 3D - France</li>
+	<li><span>1996:	CO-FONDATEUR & CO-GERANT</span> d'un projet culturel immobilier multinational à Bratislava (budget 40 millions de dollars) - Slovaquie</li>
+	<li><span>1994 - 1995:	GRAPHISTE - </span> Projets graphiques, illustrateur - France</li>
+	<li><span>1984 - 1989:	TIMONIER</span>, Marine Nationale. Transmissions visuelles, navigation tactique, photographe. France</li>
+</ul>

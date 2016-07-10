@@ -1,0 +1,6 @@
+﻿<h3>about me</h3>
+<p>
+	<span>
+	I am passionate about Web, Design and Challenges in general. I have a great team spirit, strong sense of responsibility and organization and I am an excellent communicator (Class Leader at <a href="http://www.wf3.fr/">WEBFORCE3</a>).
+	</span>
+</p>
